@@ -28,7 +28,7 @@ while True:
         matches = face_recognition.compare_faces(known_image_encoding,face_encoding)
 
         if True in matches:
-            name = "Maisarah"
+            name = "Verified"
             open_relay = True
         
         
