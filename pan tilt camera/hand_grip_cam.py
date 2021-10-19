@@ -1,5 +1,6 @@
 '''
 Edited code from original version "Malaysian Sign Language Numbers"
+https://github.com/MaisarahPauzi/malaysian_sign_language_number/blob/master/detecthand.py
 '''
 
 import cv2
