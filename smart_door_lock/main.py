@@ -52,7 +52,8 @@ while True:
     # if keyboard key "q" pressed
     if cv2.waitKey(1) & 0xFF == ord('q'):
             break
-
+            
+board.exit()
 camera.release()
 cv2.destroyAllWindows()
 exit()
