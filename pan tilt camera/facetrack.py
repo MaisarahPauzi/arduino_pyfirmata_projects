@@ -94,5 +94,6 @@ while True:
     # tilt stay at default angle.
     move_servo_tilt(0)
 
+board.exit()    
 camera.release()
 cv2.destroyAllWindows()
