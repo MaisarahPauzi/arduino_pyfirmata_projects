@@ -78,6 +78,7 @@ while True:
     tilt_angle = cv2.getTrackbarPos('tilt','image')
     move_servo_pan(pan_angle)
     move_servo_tilt(tilt_angle)
-
+    
+board.exit()
 camera.release()
 cv2.destroyAllWindows()
